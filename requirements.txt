@@ -15,8 +15,8 @@ langchainhub==0.1.21
 chromadb==0.4.24
 qdrant-client==1.7.3
 
-# OpenAI
-openai==1.12.0
+# OpenAI - compatible with langchain-openai==0.1.7
+openai>=1.24.0,<2.0.0
 
 # Web search
 tavily-python==0.3.3
@@ -26,5 +26,5 @@ pydantic==2.6.1
 python-dotenv==1.0.1
 lark==1.1.9
 
-# Required for parsing
-tiktoken==0.5.2
+# Required for parsing - compatible with langchain-openai==0.1.7
+tiktoken>=0.7,<1
