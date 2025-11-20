@@ -1,0 +1,10 @@
+[theme]
+# Eco-friendly light theme
+primaryColor = "#10b981"  # Green
+backgroundColor = "#f0fdf4"  # Light mint green
+secondaryBackgroundColor = "#ecfdf5"  # Slightly lighter mint
+textColor = "#064e3b"  # Dark forest green
+font = "sans serif"
+
+[server]
+headless = true
